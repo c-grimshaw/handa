@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(page_title="Review Nominations", page_icon="📋", layout="wide")
 
 # Get units from secrets
-UNITS = st.secrets.units.cansofcom
+UNITS = st.secrets.units.military
 
 # Header
 st.title("📋 Review Nominations")

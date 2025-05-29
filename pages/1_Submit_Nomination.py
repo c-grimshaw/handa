@@ -13,7 +13,7 @@ st.set_page_config(
 
 # Get ranks and units from secrets
 RANKS = st.secrets.ranks.enlisted + st.secrets.ranks.officers
-UNITS = st.secrets.units.cansofcom
+UNITS = st.secrets.units.military
 
 # Sidebar
 with st.sidebar:
@@ -38,7 +38,7 @@ with st.sidebar:
 
     st.divider()
 
-    st.caption("Last updated: March 2024")
+    st.caption("Last updated: May 2025")
     st.caption("Version 1.0.0")
 
 # Header
